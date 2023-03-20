@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(255, 213, 0);
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.organize{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.spaceout{
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#moveright{
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span{
+    color: rgb(198, 198, 198);
+}
+
+div > form{
+    display:flex;
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+}
+
+button{
+    padding: 4px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
